@@ -9,16 +9,16 @@ JDK USED - jdk1.8.0_151
 IDE USED FOR PROJECT - IntelliJ IDEA Ultimate Edition
 
 HOW TO RUN ON IntelliJ on Linux - 
-1. For (DocWordCount.java)
+1. For (DocWordCount.java) Run/Debug Configuration
 Program arguments - cantrbry output
 
-2. For TermFrequency
+2. For (TermFrequency.java) Run/Debug Configuration
 Program arguments - cantrbry output2
 
-3. For TFIDF.java
+3. For (TFIDF.java) Run/Debug Configuration
 Program arguments - cantrbry output3
 
-4. For Search.java [Note - TFIDF.java's output is it's input]
+4. For (Search.java) Run/Debug Configuration [Note - TFIDF.java's output is it's input]
 Program arguments - /output3 output4 "computer science"   
 
 -----------------------------------------------------------------------------------------------------------------------------
