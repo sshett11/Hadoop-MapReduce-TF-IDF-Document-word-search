@@ -21,7 +21,7 @@ Program arguments - cantrbry output3
 4. For Search.java [Note - TFIDF.java's output is it's input]
 Program arguments - /output3 output4 "computer science"   
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 HOW TO RUN ON CLOUDER VM  -  
 **To Leave from Cloudera machine safe mode (if present) -
@@ -53,7 +53,7 @@ hadoop fs -cat /user/cloudera/DocWordCount/output/*
 To send output to file (over write if exists) -
 hadoop fs -cat /user/cloudera/DocWordCount/output/* > DocWordCount.out
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 2>>> TermFrequency program
 To Delete Folder with files - 
@@ -82,7 +82,7 @@ To send output to file (over write if exists) -
 hadoop fs -cat /user/cloudera/TermFrequency/output/* > TermFrequency.out
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 3>>> TFIDF program (PASS TermFrequency.java while compiling) as given below -
 To Delete Folder with files - 
@@ -111,7 +111,7 @@ To send output to file (over write if exists) -
 hadoop fs -cat /user/cloudera/TFIDF/output/* > TFIDF.out
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 4>>> Search program (PASS TFIDF.java's(3rd program's) Output path as input while compiling) as given below -
 To Delete Folder with files - 
